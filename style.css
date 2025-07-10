@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#brand{
+    color: white;
+    font-weight: 900;
+}
+body{
+    color: white;
+    font-weight: 900;
+    background-color: gray;
+    
+}
+#movie-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 30px;
+    row-gap: 20px;
+    margin-block: 3rem;
+}
+.movieCard{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0.2rem;
+    background-color: #212529;
+    border-radius: 8px;
+}
+.movieCard:hover{
+    border: 2px solid white;  
+    background-color: gray;
+    /* color: black; */
+}
+.movieCard img{
+height: 80%;
+width: 90%;
+padding-bottom: 1rem;
+border-radius: 8px;
+}
+#nav{
+    border-radius: 8px;
+    padding: 1rem;
+    transform: translateY(-10px);
+    position: sticky;
+}
+#filter{
+   margin-left: 59rem;
+}
+#option{
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #212529;
+    color: white;
+    font-weight: 900;
+}
+#footer{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+#footer a {
+    text-decoration: none;
+    color: gray;
+}
+@media  screen and (max-width:1000px) {
+    #movie-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #filter{
+        margin-left: 0rem;
+        margin: 0% auto;
+        width: 100%;
+
+    }   
+}
+@media  screen and (max-width:1050px) {
+    #filter{
+        margin: 0px;
+    }
+}
+@media screen and (max-width:700px){
+
+   #movie-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+}
+#movieDetailModal{
+    text-align: center;
+}
+#modal-body p {
+    font-weight: normal;
+  }
+  
