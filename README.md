@@ -18,7 +18,7 @@ A fully responsive and interactive movie search web application built using **HT
 
 Click the image below to watch a short demo of the project in action:
 
-[![Watch the Demo](./images/Movie-Search-Web.png)](https://www.loom.com/share/a891cb94b2da46b9af30fedffbc45414?sid=3ba379db-2673-47cc-96a6-98e68d641242)
+[![Watch the Demo](./images/thumbnail.png)](https://www.loom.com/share/a891cb94b2da46b9af30fedffbc45414?sid=3ba379db-2673-47cc-96a6-98e68d641242)
 
 ---
 
